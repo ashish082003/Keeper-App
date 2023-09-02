@@ -1,9 +1,14 @@
 import React from "react";
-
-function Header(){
-    return (<header>
-        <h1>Keeper</h1>
+import HighligthtIcon from "@mui/icons-material/Highlight";
+function Header() {
+  return (
+    <header>
+      <h1>
+        <HighligthtIcon />
+        Keeper
+      </h1>
     </header>
-);}
+  );
+}
 
-export default Header; 
+export default Header;
