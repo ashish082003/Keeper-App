@@ -92,7 +92,21 @@ form.create-note textarea {
   font-family: inherit;
   resize: none;
 }
+@media (max-width: 768px) {
+  header {
+    padding: 16px; /* Adjust header padding for smaller screens */
+  }
 
+  form.create-note {
+    width: 100%; /* Make the form full width on smaller screens */
+    margin: 20px auto; /* Adjust the form margin for spacing */
+  }
+
+  form.create-note button {
+    right: 8px; /* Adjust button position for smaller screens */
+    bottom: -12px; /* Adjust button position for smaller screens */
+  }
+}
 form.create-note button {
   position: absolute;
   right: 18px;
